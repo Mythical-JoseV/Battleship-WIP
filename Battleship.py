@@ -12,6 +12,10 @@ pygame.init()
 window = pygame.display.set_mode((800,600))
  
 pygame.display.set_caption("Collision Detection")
+
+
+print("Welcome to Hit or Miss. Your objective is to get 3 points, every hit is 1, but every miss takes 1 away. If you get to -3 then you lose.")
+print("You use WASD to move and Space to attack.")
  
 black = (0,0,0)
 white = (255,255,255)
